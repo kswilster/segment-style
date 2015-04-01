@@ -1,5 +1,27 @@
 /* Welcome to Compass. Use this file to write IE specific override styles.
  * Import this file using the following HTML or equivalent:
- * <!--[if IE]>
+1 * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
+/* line 7, ../sass/main.scss */
+body {
+  margin: 0px;
+}
+
+/* line 11, ../sass/main.scss */
+.nav {
+  height: 74px;
+  background-color: #2a2b24;
+}
+
+/* line 16, ../sass/main.scss */
+.mid {
+  height: 150px;
+  background-color: #3D3E38;
+}
+
+/* line 21, ../sass/main.scss */
+.low {
+  height: 2800px;
+  background-color: #F8F5F0;
+}
