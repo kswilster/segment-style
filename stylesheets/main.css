@@ -15,12 +15,23 @@ body {
 }
 
 /* line 16, ../sass/main.scss */
+.nav-inner {
+  margin: 0 auto;
+  padding: 1.2em 1.4em 1.3em 1.7em;
+}
+
+/* line 21, ../sass/main.scss */
+.nav-inner__title {
+  color: white;
+}
+
+/* line 25, ../sass/main.scss */
 .mid {
   height: 150px;
   background-color: #3D3E38;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 .low {
   height: 2800px;
   background-color: #F8F5F0;
