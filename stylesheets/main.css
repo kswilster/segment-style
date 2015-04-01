@@ -4,34 +4,72 @@
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
 /* line 7, ../sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, ../sass/main.scss */
 body {
   margin: 0px;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 .nav {
-  height: 74px;
   background-color: #2a2b24;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 .nav-inner {
   margin: 0 auto;
   padding: 1.2em 1.4em 1.3em 1.7em;
 }
 
-/* line 21, ../sass/main.scss */
-.nav-inner__title {
+/* line 24, ../sass/main.scss */
+.nav-item {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/* line 29, ../sass/main.scss */
+.nav-item__title {
   color: white;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
+.nav-tabs__button {
+  display: inline-block;
+  vertical-align: middle;
+  height: 34px;
+  width: 40px;
+  margin: 0 1px;
+  background: #353631;
+  text-align: center;
+  position: relative;
+}
+/* line 46, ../sass/main.scss */
+.nav-tabs__button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  transition: opacity 500ms linear;
+  opacity: 0.5;
+  color: #B5AA97;
+}
+/* line 59, ../sass/main.scss */
+.nav-tabs__button:hover i {
+  opacity: 1;
+}
+
+/* line 66, ../sass/main.scss */
 .mid {
   height: 150px;
   background-color: #3D3E38;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .low {
   height: 2800px;
   background-color: #F8F5F0;
