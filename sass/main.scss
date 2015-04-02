@@ -91,6 +91,10 @@ body {
   margin-right: 20px;
 }
 
+.project-button__label--highlight {
+  color: #b4a995
+}
+
 .project-button__caret {
   position: absolute;
   top: 11px;
@@ -176,4 +180,17 @@ body {
 .low {
   height: 2800px;
   background-color: #F8F5F0;
+}
+
+.account-actions__button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.account-actions__drop {
+  display: inline-block;
 }
