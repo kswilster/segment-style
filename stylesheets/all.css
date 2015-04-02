@@ -1,0 +1,202 @@
+/* global styles */
+/* line 3, ../sass/global.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/global.scss */
+html {
+  font: 20px "freight-sans-pro", "Verdana", sans-serif;
+  color: #3e3f3a;
+}
+
+/* line 13, ../sass/global.scss */
+body {
+  margin: 0px;
+}
+
+/* segment.io nav */
+/* line 3, ../sass/blocks/nav.scss */
+.nav {
+  background-color: #2a2b24;
+}
+
+/* line 7, ../sass/blocks/nav.scss */
+.nav-inner {
+  font-size: 16px;
+  color: #ece6da;
+  position: relative;
+  z-index: 10;
+  background: #2a2b24;
+  margin: 0 auto;
+  padding: 1.2em 1.4em 1.3em 1.7em;
+}
+
+/* line 21, ../sass/blocks/nav.scss */
+.nav-right {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translate3d(0, 0, 0);
+  transform: translateY(-50%) translate3d(0, 0, 0);
+}
+
+/* line 29, ../sass/blocks/nav.scss */
+.nav-link {
+  white-space: nowrap;
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity 200ms ease-in;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0 7px;
+}
+
+/* line 42, ../sass/blocks/nav.scss */
+.nav-item {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/* line 47, ../sass/blocks/nav.scss */
+.nav-title {
+  color: white;
+}
+
+/* line 51, ../sass/blocks/nav.scss */
+.project-button {
+  background: #353631;
+  border-radius: 4px;
+  color: #838077;
+  font-size: 14px;
+  line-height: 34px;
+  padding: 0 10px 0 15px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 68, ../sass/blocks/nav.scss */
+.project-button__label {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 20px;
+}
+
+/* line 76, ../sass/blocks/nav.scss */
+.project-button__label--highlight {
+  color: #b4a995;
+}
+
+/* line 80, ../sass/blocks/nav.scss */
+.project-button__caret {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 9px;
+  width: 16px;
+  cursor: pointer;
+}
+
+/* line 95, ../sass/blocks/nav.scss */
+.nav-tabs__button, .nav-tabs__button--active {
+  display: inline-block;
+  vertical-align: middle;
+  height: 34px;
+  width: 40px;
+  margin: 0 1px;
+  background: #353631;
+  text-align: center;
+  position: relative;
+}
+/* line 105, ../sass/blocks/nav.scss */
+.nav-tabs__button i, .nav-tabs__button--active i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  transition: opacity 500ms linear;
+  opacity: 0.5;
+  color: #B5AA97;
+}
+/* line 118, ../sass/blocks/nav.scss */
+.nav-tabs__button:hover i, .nav-tabs__button--active:hover i {
+  opacity: 1;
+}
+
+/* line 124, ../sass/blocks/nav.scss */
+.nav-tabs__button:first-child, .nav-tabs__button--active:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 129, ../sass/blocks/nav.scss */
+.nav-tabs__button:last-child, .nav-tabs__button--active:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 134, ../sass/blocks/nav.scss */
+.nav-tabs__button--active {
+  background-color: #5CCC5C;
+  color: white;
+  width: auto;
+  text-decoration: none;
+}
+/* line 141, ../sass/blocks/nav.scss */
+.nav-tabs__button--active i {
+  display: block;
+  color: white;
+  opacity: 1;
+  left: 20px;
+}
+
+/* line 149, ../sass/blocks/nav.scss */
+.nav-tabs__label {
+  line-height: 34px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 15px 0 35px;
+}
+
+/* line 157, ../sass/blocks/nav.scss */
+.account-actions__button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* line 166, ../sass/blocks/nav.scss */
+.account-actions__drop {
+  display: inline-block;
+}
+
+/* line 2, ../sass/debugger.scss */
+.mid {
+  height: 150px;
+  background-color: #3D3E38;
+}
+
+/* line 7, ../sass/debugger.scss */
+.low {
+  height: 2800px;
+  background-color: #F8F5F0;
+}

@@ -1,0 +1,16 @@
+/* global styles */
+/* line 3, ../sass/global.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/global.scss */
+html {
+  font: 20px "freight-sans-pro", "Verdana", sans-serif;
+  color: #3e3f3a;
+}
+
+/* line 13, ../sass/global.scss */
+body {
+  margin: 0px;
+}
