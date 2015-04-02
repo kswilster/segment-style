@@ -196,7 +196,7 @@ body {
   position: relative;
 }
 
-/* line 41, ../sass/blocks/graph.scss */
+/* line 7, ../sass/blocks/graph.scss */
 .graph-toggle-button {
   transition: all 250ms linear;
   border-radius: 4px;
@@ -225,8 +225,8 @@ body {
   font-size: 14px;
 }
 
-/* line 55, ../sass/blocks/graph.scss */
-.graph-toggle-button__icon-pause {
+/* line 21, ../sass/blocks/graph.scss */
+.graph-toggle-button__icon--pause {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -236,12 +236,107 @@ body {
   transform: translate(0, 0);
   padding-right: 0.6em;
 }
-/* line 36, ../sass/blocks/graph.scss */
-.graph-toggle-button__icon-pause:before {
+/* line 46, ../sass/global.scss */
+.graph-toggle-button__icon--pause:before {
   content: "\f04c";
 }
 
-/* line 3, ../sass/debugger.scss */
+/* line 4, ../sass/blocks/request_list.scss */
+.request {
+  position: relative;
+  padding: 0 1.5em;
+  background-color: #f8f5f0;
+  border-bottom: 1px solid rgba(236, 230, 218, 0.6);
+}
+
+/* line 11, ../sass/blocks/request_list.scss */
+.request:last-child {
+  border-bottom: none;
+}
+
+/* header */
+/* line 17, ../sass/blocks/request_list.scss */
+.request-header {
+  padding: 14px 0px;
+}
+
+/* line 21, ../sass/blocks/request_list.scss */
+.request-header__icon, .request-header__icon--js, .request-header__icon--ruby {
+  color: #5D7539;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-top: .1em;
+  margin-right: .7em;
+  border: 2px solid #A7C67A;
+  background-color: #A7C67A;
+  border-radius: 500px;
+  /* background alignment */
+  padding: 3px 0px 0px 2px;
+}
+
+/* line 35, ../sass/blocks/request_list.scss */
+.request-header__icon--js {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+/* line 58, ../sass/global.scss */
+.request-header__icon--js:before {
+  content: "\f1cc";
+}
+
+/* line 41, ../sass/blocks/request_list.scss */
+.request-header__icon--ruby {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+/* line 52, ../sass/global.scss */
+.request-header__icon--ruby:before {
+  content: "\f219";
+}
+
+/* line 47, ../sass/blocks/request_list.scss */
+.request-header__type {
+  float: left;
+  position: relative;
+  min-width: 90px;
+  margin-right: .7em;
+  -webkit-font-feature-settings: "smcp", "c2sc";
+  -moz-font-feature-settings: "smcp", "c2sc";
+  font-feature-settings: "smcp", "c2sc";
+  font-variant: all-small-caps;
+  color: #736448;
+}
+
+/* body */
+/* line 65, ../sass/blocks/request_list.scss */
+.request-body, .request-body--expanded {
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  max-height: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, max-height, padding;
+}
+
+/* line 74, ../sass/blocks/request_list.scss */
+.request-body--expanded {
+  padding-top: .7em;
+  padding-bottom: .7em;
+  max-height: 3.5em;
+}
+
+/* line 2, ../sass/debugger.scss */
 .low {
   height: 2800px;
   background-color: #F8F5F0;

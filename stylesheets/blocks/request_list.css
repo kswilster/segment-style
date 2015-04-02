@@ -1,23 +1,23 @@
 /*
-Error: Undefined mixin 'btn'.
-        on line 8 of /Users/kwilliams/dev/segment-style/sass/blocks/graph.scss, in `btn'
-        from line 8 of /Users/kwilliams/dev/segment-style/sass/blocks/graph.scss
+Error: Undefined mixin 'fa'.
+        on line 36 of /Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss, in `fa'
+        from line 36 of /Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss
 
-3:   background-color: #3D3E38;
-4:   position: relative;
-5: }
-6: 
-7: .graph-toggle-button {
-8:   @include btn;
-9:   background-color: #eb7952;
-10:   position: absolute;
-11:   z-index: 1;
-12:   bottom: 1em;
-13:   left: 1em;
+31:   /* background alignment *\/
+32:   padding: 3px 0px 0px 2px;
+33: }
+34: 
+35: .request-header__icon--js {
+36:   @include fa;
+37:   @include fa-jsfiddle;
+38:   @extend .request-header__icon;
+39: }
+40: 
+41: .request-header__icon--ruby {
 
 Backtrace:
-/Users/kwilliams/dev/segment-style/sass/blocks/graph.scss:8:in `btn'
-/Users/kwilliams/dev/segment-style/sass/blocks/graph.scss:8
+/Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss:36:in `fa'
+/Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss:36
 /Users/kwilliams/.rvm/gems/ruby-2.0.0-p481/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Users/kwilliams/.rvm/gems/ruby-2.0.0-p481/gems/sass-3.4.13/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/kwilliams/.rvm/gems/ruby-2.0.0-p481/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'btn'.\A         on line 8 of /Users/kwilliams/dev/segment-style/sass/blocks/graph.scss, in `btn'\A         from line 8 of /Users/kwilliams/dev/segment-style/sass/blocks/graph.scss\A \A 3:   background-color: #3D3E38;\A 4:   position: relative;\A 5: }\A 6: \A 7: .graph-toggle-button {\A 8:   @include btn;\A 9:   background-color: #eb7952;\A 10:   position: absolute;\A 11:   z-index: 1;\A 12:   bottom: 1em;\A 13:   left: 1em;"; }
+  content: "Error: Undefined mixin 'fa'.\A         on line 36 of /Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss, in `fa'\A         from line 36 of /Users/kwilliams/dev/segment-style/sass/blocks/request_list.scss\A \A 31:   /* background alignment */\A 32:   padding: 3px 0px 0px 2px;\A 33: }\A 34: \A 35: .request-header__icon--js {\A 36:   @include fa;\A 37:   @include fa-jsfiddle;\A 38:   @extend .request-header__icon;\A 39: }\A 40: \A 41: .request-header__icon--ruby {"; }

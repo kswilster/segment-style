@@ -4,40 +4,6 @@
   position: relative;
 }
 
-@mixin btn {
-  transition: all 250ms linear;
-  border-radius: 4px;
-  text-transform: uppercase;
-  background-color: #A6C776;
-  border: none;
-  padding: 1.0625em 1.25em;
-  line-height: 1;
-  font-size: 16px;
-  font-weight: 600;
-  display: inline-block;
-  -webkit-font-smoothing: antialiased;
-  color: #F8F5F0;
-  box-sizing: border-box;
-  white-space: nowrap;
-  text-align: center;
-}
-
-@mixin fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
-}
-
-@mixin fa-pause {
-  &:before {
-    content: "\f04c";
-  }
-}
-
 .graph-toggle-button {
   @include btn;
   background-color: #eb7952;
@@ -52,7 +18,7 @@
   font-size: 14px;
 }
 
-.graph-toggle-button__icon-pause {
+.graph-toggle-button__icon--pause {
   @include fa;
   @include fa-pause;
   padding-right: 0.6em;

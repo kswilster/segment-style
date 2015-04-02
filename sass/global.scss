@@ -13,3 +13,49 @@ html {
 body {
   margin: 0px;
 }
+
+@mixin btn {
+  transition: all 250ms linear;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #A6C776;
+  border: none;
+  padding: 1.0625em 1.25em;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  color: #F8F5F0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@mixin fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+@mixin fa-pause {
+  &:before {
+    content: "\f04c";
+  }
+}
+
+@mixin fa-diamond {
+  &:before {
+    content: "\f219";
+  }
+}
+
+@mixin fa-jsfiddle {
+  &:before {
+    content: "\f1cc";
+  }
+}
