@@ -1,11 +1,11 @@
-/* line 1, ../sass/blocks/graph.scss */
+/* line 1, ../../sass/blocks/graph.scss */
 .graph {
   height: 150px;
   background-color: #3D3E38;
   position: relative;
 }
 
-/* line 41, ../sass/blocks/graph.scss */
+/* line 41, ../../sass/blocks/graph.scss */
 .graph-toggle-button {
   transition: all 250ms linear;
   border-radius: 4px;
@@ -34,7 +34,7 @@
   font-size: 14px;
 }
 
-/* line 55, ../sass/blocks/graph.scss */
+/* line 55, ../../sass/blocks/graph.scss */
 .graph-toggle-button__icon-pause {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -45,13 +45,7 @@
   transform: translate(0, 0);
   padding-right: 0.6em;
 }
-/* line 36, ../sass/blocks/graph.scss */
+/* line 36, ../../sass/blocks/graph.scss */
 .graph-toggle-button__icon-pause:before {
   content: "\f04c";
-}
-
-/* line 3, ../sass/debugger.scss */
-.low {
-  height: 2800px;
-  background-color: #F8F5F0;
 }
